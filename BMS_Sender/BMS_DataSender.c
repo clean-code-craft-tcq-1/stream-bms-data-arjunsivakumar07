@@ -28,7 +28,7 @@ SendStatus BMS_SendData(SendType sendType)
 
   Validity_status = SendData[sendType](Temperature, ChargeRate);
   
-  return status;
+  return Validity_status;
 }
 /* **************************************************************************************************
 * Function      : This function Prints BMS parameter value on console
