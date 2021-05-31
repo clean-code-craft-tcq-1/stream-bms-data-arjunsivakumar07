@@ -16,7 +16,7 @@ jobs:
         sudo apt-get install -y gcovr
         
     - name: Software build for Testing
-      run: g++ -Wall -Wextra -fprofile-arcs -ftest-coverage -o testchecker BMS_Sender/Sender_CollectData.c BMS_Sender/Sender_SentType.c test_Sender.cpp
+      run: g++ -Wall -Wextra -fprofile-arcs -ftest-coverage -o testchecker BMS_Sender/BMS_DataCollect.c BMS_Sender/BMS_DataSender.c test_Sender.cpp
       
     - name: run
       run: ./testchecker
