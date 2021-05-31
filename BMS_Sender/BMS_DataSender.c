@@ -9,7 +9,7 @@
 #include "string.h"
 
 /* ***************************************** Variables ****************************************************** */
-SendStatus(*SendData[])(float, float) = {sendToConsole};
+SendStatus(*SendData[])(float, float) = {Print_ToConsole};
 
 /* **************************************************************************************************
 * Function      : This function sends BMS parameter value to console as an input
