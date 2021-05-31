@@ -31,7 +31,7 @@ float BmsSender_ReadTemperture()
 {
     float Temperature = 0;
     Temperature = RandomNumGenerator(MIN_TEMP,MAX_TEMP);
-    if(isInRange(Temperature,MIN_TEMP,MIN_TEMP))
+    if(isInRange(Temperature,MIN_TEMP,MAX_TEMP))
       {
           return Temperature;
       }
