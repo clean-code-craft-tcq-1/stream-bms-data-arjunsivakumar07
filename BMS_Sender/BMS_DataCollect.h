@@ -24,3 +24,5 @@ int isInRange(float current_value, float min_value, float max_value);
 float BmsSender_ReadTemperture();
 float Get_BMSChargeRate();
 float RandomNumGenerator(const float min, const float max);
+
+#endif
