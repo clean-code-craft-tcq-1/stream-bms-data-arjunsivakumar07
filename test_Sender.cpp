@@ -54,7 +54,7 @@ TEST_CASE("Test for invalid Random values")
   float random_value = 0;
   float min = 20;
   float max = 10;
-  REQUIRE(random_float(min,max) == 0);
+  REQUIRE(RandomNumGenerator(min,max) == 0);
 }
 
 TEST_CASE("Test for Send BMS data") 
